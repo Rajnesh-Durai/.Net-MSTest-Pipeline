@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "iiFE5tK5wIFvYvnANJXD1xzufE6LlFlFq3yqEYiBBwlGLNcv6yBZJjZk33M7RzlWjCsTjB5VMoUU5xRObbmy7A==",
+  "success": true,
+  "projectFilePath": "D:\\ABP-DOTNET-REACT\\Kanini.Trip\\aspnet-core\\KaniniTrip\\src\\MS-Testing-Pipeline\\MS-Testing-Pipeline\\MS-Testing-Pipeline.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rajesh Rajinish\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Rajesh Rajinish\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Rajesh Rajinish\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Rajesh Rajinish\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Rajesh Rajinish\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Rajesh Rajinish\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
