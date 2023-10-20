@@ -32,7 +32,15 @@ steps:
     arguments: '--configuration $(buildConfiguration)'
   displayName: 'dotnet test $(buildConfiguration)'
 
-- task: PublishBuildArtifacts@1
-  displayName: 'Publish Artifact'
+- task: DotNetCoreCLI@2
   inputs:
-    ArtifactName: MSTesting
+    command: publish
+    publishWebProjects: True
+    arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+    zipAfterPublish: True
+
+# this code takes all the files in $(Build.ArtifactStagingDirectory) and uploads them as an artifact of your build.
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: '$(Build.ArtifactStagingDirectory)' 
+    artifactName: 'MSTest-Publish-To-Pipline'
